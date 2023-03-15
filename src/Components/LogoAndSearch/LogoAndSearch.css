@@ -1,8 +1,38 @@
 .search{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 40px;
+}
+.search-logo{
+    margin-left: 20px;
 }
 .search-box{
     display: flex;
     justify-content: flex-start;
+    margin-right: 20px;
+    
+}
+.search-select{
+    padding: 12px;
+    border-radius: 8px;
+    background-color: #6c757d;
+    color: #fff;
+}
+.search-select:hover {
+    cursor: pointer;
+    background-color: #212529;
+}
+.search-select option{
+    background-color: #6c757d;
+    color: #fff;
+   
+}
+.search-select option:hover{
+    cursor: pointer;
+    background-color: #212529;
+}
+.search-input{
+    padding: 12px;
+    width: 50%;
+    border-radius: 8px;
 }
