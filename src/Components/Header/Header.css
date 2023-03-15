@@ -1,0 +1,28 @@
+/* #f5cc5b */
+.navbar{
+    padding: 12px;
+    background-color: #a67f14;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar-part-a{
+    display: flex;
+    align-items: flex-start;
+}
+.navbar-marquee{
+    padding-top: 7px;
+    margin-left: 15px;
+}
+.header-button{
+    margin-right: 16px;
+    background-color: #a67f14;
+    border: none;
+    color: #fff;
+}
+.header-button:last-child{
+    margin-right: 0px;
+}
+.header-button:hover{
+    cursor: pointer;
+}

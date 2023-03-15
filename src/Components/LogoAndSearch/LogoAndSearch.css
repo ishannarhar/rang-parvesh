@@ -1,0 +1,8 @@
+.search{
+    display: flex;
+    justify-content: space-between;
+}
+.search-box{
+    display: flex;
+    justify-content: flex-start;
+}

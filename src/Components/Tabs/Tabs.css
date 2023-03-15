@@ -1,0 +1,28 @@
+.tabs{
+
+   
+}
+.border{
+    border-top: 2px solid black;
+    width: 100vw;
+    
+}
+.tabs-names{
+    display: flex;
+}
+.tabs-individual{
+    display: flex;
+}
+.tabs-button{
+    border:none;
+    background-color: #fff;
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    color: #666;
+}
+.tabs-button:hover {
+    cursor: pointer;
+    background-color: #a67f14;
+    color: #fff;
+    transition: .5s ease;
+}
