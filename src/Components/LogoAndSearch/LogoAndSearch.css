@@ -10,11 +10,12 @@
     display: flex;
     justify-content: flex-start;
     margin-right: 20px;
+    position: relative;
     
 }
 .search-select{
     padding: 12px;
-    border-radius: 8px;
+    border: none;
     background-color: #6c757d;
     color: #fff;
 }
@@ -32,7 +33,20 @@
     background-color: #212529;
 }
 .search-input{
+    border: 1px solid rgba(196, 194, 194, 0.916);
     padding: 12px;
-    width: 50%;
+    width: 470px;
+    
+}
+.search-box-button{
+    position: absolute;
+    right:3px;
+    top: 3px;
+    border:none;
+    padding: 14px;
     border-radius: 8px;
+    background-color: #fff;
+}
+.search-box-button:hover{
+    cursor: pointer;
 }

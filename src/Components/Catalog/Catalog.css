@@ -1,18 +1,36 @@
 .catalog{
-    background-color: #f5cc5b;
+    background-color: #fff;
     padding: 20px 40px;
-    position:relative
+    position: relative;
+    border-bottom: 2px solid black;
+    margin-bottom: 30px;
 }
 .catalog-header{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 20px;
 }
 .catalog-view{
    display: flex;
 }
+.catalog-view-button{
+    background-color: #a67f14;
+    border: 1px solid #a67f14;
+    padding: 12px;
+    color: #fff;
+    border-radius: 3px;
+}
+.catalog-view-button:hover{
+    cursor: pointer;
+    border: 1px solid #a67f14;
+    background-color: #fff;
+    color: black;
+}
 .catalog-images{
     display: flex;
     gap: 10px;
+    margin-bottom: 20px;
+    justify-content: center;
 }
 .catalog-image-container{
     background-color: #fff;
@@ -29,7 +47,7 @@
     border:none;
     padding: 8px;
     border-radius: 50%;
-    position: absolute;
+    margin-right: 5px;
     top: 48%;
     left: 8px;
 }
@@ -40,10 +58,43 @@
     border: none;
     padding: 8px;
     border-radius: 50%;
-    position: absolute;
+    margin-left: 5px;
     top: 48%;
     right: 24px;
 }
 .catalog-buttons:nth-child(2):hover{
+    cursor: pointer;
+}
+.catalog-arrows{
+    text-align: center;
+}
+.catalog-arrow-left{
+    position: absolute;
+    top: 50%;
+    padding-top: 11px;
+    padding-right: 3px;
+    left: 30px;
+    height: 3rem;
+    width: 3rem;
+    text-align: center;
+}
+.catalog-arrow-left:hover{
+    background-color: #e9ecef;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.catalog-arrow-right{
+    position: absolute;
+    top: 50%;
+    padding-top: 11px;
+    padding-left: 3px;
+    right: 30px;
+    height: 3rem;
+    width: 3rem;
+    text-align: center;
+}
+.catalog-arrow-right:hover{
+    background-color: #e9ecef;
+    border-radius: 50%;
     cursor: pointer;
 }

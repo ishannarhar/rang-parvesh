@@ -29,7 +29,7 @@ export default function LogoAndSearch() {
     <>
       <section className="search">
         <div className="search-logo">
-          <img src={myLogo} width="100" height="40" alt="My Logo" />
+          <img src={myLogo} width="110" height="45" alt="My Logo" />
         </div>
         <div className="search-box">
           <select className="search-select">
@@ -38,6 +38,9 @@ export default function LogoAndSearch() {
             })}
           </select>
           <input className="search-input" placeholder="Search" type="text" />
+          <button className="search-box-button">
+            <i className="fa fa-search"></i>
+          </button>
         </div>
       </section>
     </>
